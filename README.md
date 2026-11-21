@@ -136,21 +136,9 @@ Explicación de Comandos (provision_db.sh):
 ## 4. Evidencias de Funcionamiento
 4.1 Estado del Servidor Web (JoaquinAlonsoAdamsApache)
 A continuación se observa el servicio Apache corriendo en la máquina virtual JoaquinAlonsoAdamsApache:
+![Descripción de la imagen](img/apachea.png)
 
 4.2 Estado del Servidor DB y Aislamiento de Red (JoaquinAlonsoAdamsMYSQL)
 A continuación se muestra el servicio MariaDB activo en la máquina JoaquinAlonsoAdamsMYSQL y la confirmación de sin acceso a Internet (fallo en la resolución de red/ping hacia el exterior):
+![Descripción de la imagen](img/pruebabfunciona.png)
 
-## 5. Instrucciones de Despliegue y Uso
-1. Clonar el repositorio:
-```
-git clone https://github.com/tu-usuario/Pila-LAMP-Dos-Niveles.git
-cd Pila-LAMP-Dos-Niveles
-```
-2. Levantar la infraestructura con Vagrant:
-```
-vagrant up
-```
-
-3. Verificar acceso Web (Port Forwarding): Abre tu navegador web en la máquina anfitriona e ingresa a: http://localhost:8080/info.php
-2. Levantar la infraestructura con Vagrant: vagrant up
-3. Verificar acceso Web (Port Forwarding): Abre tu navegador web en la máquina anfitriona e ingresa a: http://localhost:8080/info.php
