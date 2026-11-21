@@ -135,10 +135,8 @@ Explicación de Comandos (provision_db.sh):
    
 ## 4. Evidencias de Funcionamiento
 4.1 Estado del Servidor Web (JoaquinAlonsoAdamsApache)
-A continuación se observa el servicio Apache corriendo en la máquina virtual JoaquinAlonsoAdamsApache:
-![Descripción de la imagen](img/apachea.png)
+![Apache corriendo en la máquina virtual JoaquinAlonsoAdamsApache](img/apachea.png)
 
 4.2 Estado del Servidor DB y Aislamiento de Red (JoaquinAlonsoAdamsMYSQL)
-A continuación se muestra el servicio MariaDB activo en la máquina JoaquinAlonsoAdamsMYSQL y la confirmación de sin acceso a Internet (fallo en la resolución de red/ping hacia el exterior):
-![Descripción de la imagen](img/pruebabfunciona.png)
+![servicio MariaDB activo en la máquina JoaquinAlonsoAdamsMYSQL y la confirmación de sin acceso a Internet (fallo en la resolución de red/ping hacia el exterior)](img/pruebaafunciona.png)
 
